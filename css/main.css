@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to bottom, #93F9B9, #1D976C);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;/*Alterando a fonte*/
+    line-height: 1.6;/*Altura das linhas ficarem com 160% da altura da fonte*/
+    
+}
+
+.container{
+    margin: 0 auto; /*margin: (margemSuperiorEInferior) (margensLaterais)*/
+    width: 960px; /*Fixa a largura em 960px*/
+}
+
+.place{
+    border-color: #182848 #4b6cb7 #4b6cb7 #182848; /*Definindo cor para borda*/
+    border: 1px solid #283048; /*Definindo borda sólida, linha de 1px*/
+    margin-bottom: 20px; /*Adiciona 20px abaixo de cada um dos elementos*/
+    padding: 10px; /*Espaçamento até as bordas*/
+}
+
+.place h2 {
+    border-bottom: 1px dashed #4A569D;
+    margin: 0;
+}
